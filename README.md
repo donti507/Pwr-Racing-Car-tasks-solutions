@@ -1,3 +1,22 @@
+cat > README.md << 'EOF'
+# PWR Racing Team - Software Recruitment
+
+Solutions for the Software Department recruitment tasks.
+
+## Task 2 - C++ Geometry
+- Convex Hull (Graham Scan)
+- Minimum width enclosing strip (Rotating Calipers)
+- Closest pair of points (Divide and Conquer)
+
+### Compile and run:
+```bash
+g++ -std=c++17 -o geometry main.cpp
+./geometry points.txt
+```
+EOF
+
+
+QUESTION :::::
 Software Department – Recruitment Tasks
 
 Below are the descriptions of two recruitment tasks for the Software Department.
